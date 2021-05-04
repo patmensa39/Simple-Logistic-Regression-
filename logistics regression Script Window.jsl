@@ -1,0 +1,7 @@
+
+Logistic(
+	Y( :Outcome ),
+	X( :Reaction Time ),
+	Target Level( "Fail" ),
+	SendToReport( Dispatch( {}, "Fit Details", OutlineBox, {Close( 0 )} ) )
+);
